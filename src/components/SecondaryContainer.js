@@ -5,7 +5,6 @@ const SecondaryContainer = ()=>{
 
     const movies = useSelector((store)=> store.movies)
 
-    console.log(movies)
 
     if(movies.nowPlayingMovies === null) return
 

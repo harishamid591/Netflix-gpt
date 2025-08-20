@@ -5,3 +5,7 @@ export const YOUTUBE_API = 'https://youtube.googleapis.com/youtube/v3/videos?par
 
 
 export const API_OPTIONS = {method: 'GET', headers: {accept: 'application/json'}};
+
+export const SUPPORTED_LANGUAGES = [{identifier:'en',name:'English'},
+    {identifier:'hindi',name:'Hindi'},{identifier:'mal',name:'Malayalam'}
+]
